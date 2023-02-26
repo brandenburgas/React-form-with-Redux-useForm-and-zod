@@ -3,7 +3,7 @@ import { orderActions, packagesActions, localeActions } from "./index";
 export const getInitialData = () => {
   return async (dispatch) => {
     const fetchData = async () => {
-      const responseGeo = await fetch("http://ipapi.co/json/");
+      const responseGeo = await fetch("https://ipapi.co/json/");
       const responseVAT = await fetch(
         "https://run.mocky.io/v3/df0247f5-9d4c-427c-b68a-b0a9e3702975"
       );

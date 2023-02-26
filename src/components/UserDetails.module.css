@@ -1,0 +1,26 @@
+.content input {
+  box-sizing: border-box;
+  width: 340px;
+  height: 60px;
+  left: calc(50% - 340px / 2);
+  top: calc(50% - 60px / 2 - 141px);
+
+  padding-left: 25px;
+  margin-bottom: 20px;
+
+  background: #dee2ff;
+  border: 1px solid #e6e6e6;
+  border-radius: 30px;
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.content input::placeholder {
+  font-weight: 400;
+
+  color: #6c757d;
+}
